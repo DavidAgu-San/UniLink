@@ -1,0 +1,61 @@
+.matchcard-body {
+    background: white;
+    border: 1px solid #EBEBEB;
+    border-radius: 22px;
+    padding: 16px;
+    flex-shrink: 0;
+    width: 160px;
+    cursor: pointer;
+    border-top:4px solid #6C63FF;
+}
+
+.matchcard-icon {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+     background: linear-gradient(135deg, #6C63FF, #A78BFA);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 14px;
+     font-weight: 700;
+     color: white;
+     margin-bottom: 10px;
+}
+
+.matchcard-name {
+    font-size: 13px;
+    font-weight:700;
+    color: #1A1A2E;
+    margin-bottom: 4px;
+}
+
+.matchcard-course {
+    font-size: 10px;
+    color: #AAA;
+    margin-bottom: 8px;
+}
+
+
+.matchcard-pct {
+    font-size: 11px;
+    font-weight:700;
+    color: #6C63FF;
+    margin-bottom: 8px;
+}
+
+.matchcard-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.matchcard-tag {
+    font-size: 9px;
+    padding: 3px 7px;
+    border-radius: 20px;
+    font-weight: 700;
+    background: #EDE9FE;
+    color: #5B4FCF;
+}
+
