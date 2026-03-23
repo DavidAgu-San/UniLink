@@ -15,7 +15,7 @@ const LoginScreen = ({ onLogin, onGoToSignUp }) => {
   <form className="login-screen" onSubmit={handleLogin}>
 
     <div className="login-logo-row">
-      <div className="login-logo-mark">✦</div>
+      <img src="/logo.png" className="login-logo-img" alt="UniLink" />
       <span className="login-logo-text">UNILINK</span>
     </div>
 
