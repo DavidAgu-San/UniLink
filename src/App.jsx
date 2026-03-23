@@ -1,10 +1,12 @@
 // Importing useState
 import {useState} from "react";
-// Pulling the LoginScreen and HomeScreen components
+// Pulling the Screen Components
 import LoginScreen from "./screens/LoginScreen";
 import HomeScreen from "./screens/HomeScreen";
 import BottomNav from "./components/BottomNav";
 import MatchesScreen from "./screens/MatchesScreen"
+import ProfileScreen from "./screens/ProfileScreen"; 
+
 
 const App = () => {
     // State to track if the user is logged in and their name
@@ -43,7 +45,7 @@ const App = () => {
         return <div style={placeholder}>Messages will be here</div>
       }
       if (activeTab === "profile") {
-        return <div style={placeholder}>Profile will be here</div>
+        return <ProfileScreen name={userName} />
       }
     }
 

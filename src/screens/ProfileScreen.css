@@ -1,0 +1,251 @@
+.profile-screen {
+  background: #F5F4FF;
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+
+.profile-header {
+  background: white;
+  padding: 20px 22px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #EBEBEB;
+}
+
+.profile-title {
+  font-family: 'Fraunces', serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1A1A2E;
+}
+
+.profile-edit-btn {
+  font-size: 12px;
+  font-weight: 700;
+  color: #6C63FF;
+  border: 1px solid #EDE9FE;
+  background: #F5F4FF;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.profile-top {
+  background: white;
+  padding: 24px 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #EBEBEB;
+}
+
+.profile-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6C63FF, #F7706A);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 12px;
+}
+
+.profile-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1A1A2E;
+  margin-bottom: 4px;
+}
+
+.profile-course {
+  font-size: 13px;
+  color: #AAA;
+  margin-bottom: 10px;
+}
+
+.profile-bio {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.55;
+  text-align: center;
+  max-width: 280px;
+}
+
+.profile-input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid #EDE9FE;
+  background: #F5F4FF;
+  color: #1A1A2E;
+  font-size: 13px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  outline: none;
+  margin-bottom: 8px;
+  text-align: center;
+  resize: none;
+}
+
+.profile-stats {
+  background: white;
+  display: flex;
+  border-bottom: 1px solid #EBEBEB;
+}
+
+.stat {
+  flex: 1;
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  border-right: 1px solid #F0EEFF;
+}
+
+.stat:last-child {
+  border-right: none;
+}
+
+.stat-num {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1A1A2E;
+}
+
+.stat-label {
+  font-size: 10px;
+  color: #AAA;
+  font-weight: 600;
+}
+
+.profile-section {
+  padding: 20px 22px 0;
+}
+
+.profile-section-title {
+  font-family: 'Fraunces', serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1A1A2E;
+  margin-bottom: 12px;
+}
+
+.interests-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.interest-tag {
+  padding: 7px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.it-purple { background: #EDE9FE; color: #5B4FCF; }
+.it-green  { background: #D1FAE5; color: #065F46; }
+.it-orange { background: #FEF3C7; color: #92400E; }
+.it-pink   { background: #FCE7F3; color: #9D174D; }
+.it-blue   { background: #EFF6FF; color: #1E40AF; }
+
+.personality-card {
+  background: white;
+  border: 1px solid #EBEBEB;
+  border-radius: 18px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.personality-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.p-label {
+  font-size: 12px;
+  color: #AAA;
+  font-weight: 600;
+  min-width: 100px;
+}
+
+.p-value {
+  font-size: 12px;
+  font-weight: 700;
+  color: #1A1A2E;
+  min-width: 60px;
+  text-align: right;
+}
+
+.p-bar-wrap {
+  flex: 1;
+  height: 6px;
+  background: #F0EEFF;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.p-bar {
+  height: 100%;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #6C63FF, #A78BFA);
+}
+
+.connections-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.connection-card {
+  background: white;
+  border: 1px solid #EBEBEB;
+  border-radius: 16px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.connection-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6C63FF, #A78BFA);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+  flex-shrink: 0;
+}
+
+.connection-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1A1A2E;
+}
+
+.connection-course {
+  font-size: 11px;
+  color: #AAA;
+  margin-top: 2px;
+}
+
+.connection-pct {
+  margin-left: auto;
+  font-size: 11px;
+  font-weight: 700;
+  color: #6C63FF;
+  flex-shrink: 0;
+}

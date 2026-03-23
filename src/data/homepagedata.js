@@ -118,3 +118,26 @@ export const posts = [
 ];
 
 
+export const userProfile = {
+  course: "BSc Computer Engineering",
+  year: "Year 2",
+  bio: "Here to find my people — study partners, collaborators, and maybe a few lifelong friends. One Piece fan. Statistics survivor.",
+  connections: 12,
+  groups: 4,
+  topMatch: 85,
+  interests: [
+    { id: 1, label: "Anime",        style: "purple" },
+    { id: 2, label: "Data Science", style: "green"  },
+    { id: 3, label: "Basketball",   style: "orange" },
+    { id: 4, label: "Music",        style: "pink"   },
+    { id: 5, label: "Study Groups", style: "blue"   },
+    { id: 6, label: "Gaming",       style: "purple" },
+    { id: 7, label: "Coding",       style: "green"  },
+  ],
+  personality: [
+    { id: 1, label: "Communication", value: "Balanced",  width: "70%" },
+    { id: 2, label: "Study style",   value: "Focused",   width: "85%" },
+    { id: 3, label: "Social energy", value: "Introvert", width: "45%" },
+    { id: 4, label: "Availability",  value: "Weekdays",  width: "60%" },
+  ]
+}
