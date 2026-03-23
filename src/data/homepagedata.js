@@ -141,3 +141,42 @@ export const userProfile = {
     { id: 4, label: "Availability",  value: "Weekdays",  width: "60%" },
   ]
 }
+
+export const groups = [
+  {
+    id: 1,
+    name: "CS Study Squad",
+    type: "Academic",
+    members: 8,
+    description: "Weekly study sessions for Computer Science modules. All years welcome.",
+    icon: "📚",
+    joined: true,
+  },
+  {
+    id: 2,
+    name: "Anime Society",
+    type: "Social",
+    members: 24,
+    description: "Weekly screenings, manga swaps and heated debates about the best arc.",
+    icon: "🎌",
+    joined: true,
+  },
+  {
+    id: 3,
+    name: "Quiet Study Collective",
+    type: "Academic",
+    members: 13,
+    description: "For students who prefer silent focused study sessions. Library regulars.",
+    icon: "🧠",
+    joined: false,
+  },
+  {
+    id: 4,
+    name: "International Students Hub",
+    type: "Social",
+    members: 41,
+    description: "A safe space for international students to connect and support each other.",
+    icon: "🌍",
+    joined: false,
+  },
+]
