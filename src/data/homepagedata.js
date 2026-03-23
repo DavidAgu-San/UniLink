@@ -40,7 +40,7 @@ export const events = [
         date: "2026-04-15",
         time: "18:00",
         description: "More Life More Music More Vibess!🤪",
-        location: "The BulL-Pen",
+        location: "The Bull-Pen",
         rsvpCount: 33,
 
 
@@ -179,4 +179,15 @@ export const groups = [
     icon: "🌍",
     joined: false,
   },
-]
+];
+
+
+export const messages = [
+  { id: 1, name: "Monkey D. Luffy",initials: "MD", preview: "Yo whats poppin?", time: "2m ago",  unread: 2, online: true  },
+  { id: 2, name: "Roronoa Zoro",initials: "RZ", preview: "I know what cooked looks like haha thats us",time: "1h ago",  unread: 0, online: false },
+  { id: 3, name: "Nami", initials: "N",  preview: "Do you have stats notes?👀",time: "3h ago",  unread: 1, online: true  },
+  { id: 4, name: "Usopp",initials: "U",  preview: "BROOOO!!! Hinokami kagura🔥",time: "Yesterday", unread: 0, online: false },
+  { id: 5, name: "Jon Snow",initials: "JS", preview: "Winter is coming and so is finals😭",time: "Yesterday", unread: 0, online: true  },
+  { id: 6, name: "Bruce Wayne",initials: "BW", preview: "Stranger Things was a bust fr...",time: "2 days ago", unread: 0, online: false },
+  { id: 7, name: "Hope Mikaelson",initials: "HM", preview: "Heyyy",time: "2 days ago", unread: 1, online: true  },
+];

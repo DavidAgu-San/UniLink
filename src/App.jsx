@@ -7,6 +7,7 @@ import BottomNav from "./components/BottomNav";
 import MatchesScreen from "./screens/MatchesScreen"
 import ProfileScreen from "./screens/ProfileScreen"; 
 import GroupsScreen from "./screens/GroupsScreen";
+import MessagesScreen from "./screens/MessagesScreen";
 
 const App = () => {
     // State to track if the user is logged in and their name
@@ -42,7 +43,7 @@ const App = () => {
         return <GroupsScreen/>
       }
       if (activeTab === "messages") {
-        return <div style={placeholder}>Messages will be here</div>
+        return <MessagesScreen/>
       }
       if (activeTab === "profile") {
         return <ProfileScreen name={userName} />
