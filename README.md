@@ -1,20 +1,18 @@
-<<<<<<< HEAD
-# React + Vite
+The Problem
+Students today are highly connected digitally, yet many feel isolated on campus. Even while surrounded by thousands of peers, students struggle to form meaningful academic and social connections.
+This challenge is especially visible among:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Introverted students who find large social environments overwhelming
+International students who face cultural and language barriers
+Students with ADHD or social anxiety who struggle with traditional social dynamics
 
-Currently, two official plugins are available:
+The impact shows in lower academic performance, increased loneliness, and declining mental well-being.
+Most existing platforms do not address this problem. They focus on appearance, popularity, or random matching rather than genuine compatibility — creating environments where already-vulnerable students feel even more excluded.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+The Solution
+UniLink is a mobile-first web application that creates a safe, intentional space for students to connect based on:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# UniLink
->>>>>>> a2a8228cecd41f46198ee3624be58aea8d7b9b00
+Academic goals — finding study partners, project collaborators, and accountability buddies
+Shared interests — connecting over hobbies, clubs, and campus activities
+Personality traits — matching communication styles, study habits, and social energy levels
