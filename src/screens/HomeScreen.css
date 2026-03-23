@@ -41,7 +41,7 @@
 
 .home-verified {
     margin: 16px 22px 0;
-    background: lindea-gradient(90deg, #EDE9FE, #FCE7F3);
+    background: linear-gradient(90deg, #EDE9FE, #FCE7F3);
     border-radius:14px;
     padding:12px 16px;
 }
@@ -55,7 +55,7 @@
 
 .home-section-title {
     font-size: 18px;
-    font-weight: 18px;
+    font-weight: 700;
     color: #1A1A2E;
     padding: 22px 22px 12px;
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -83,7 +83,7 @@
 }
 
 .home-event-card {
-    background: smokewhite;
+    background: white;
     border: 1px solid #EBEBEB;
     border-radius: 20px;
     padding: 16px;
@@ -150,6 +150,80 @@
     padding: 16px
 }
 
+.home-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6C63FF, #F7706A);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+}
+
+.home-progress-card {
+  margin: 16px 22px 0;
+  border-radius: 20px;
+  padding: 14px 16px;
+  background: white;
+  border: 1px solid #EBEBEB;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.post-strip {
+  height: 4px;
+  background: linear-gradient(90deg, #6C63FF, #F7706A, #FBBF24);
+  margin: 0 -16px 12px;
+}
+
+.progress-section {
+  flex: 1;
+}
+
+.progress-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+
+.progress-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1A1A2E;
+}
+
+.progress-pct {
+  font-size: 12px;
+  font-weight: 700;
+  color: #6C63FF;
+}
+
+.progress-bar {
+  height: 7px;
+  background: #F0EEFF;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 40%;
+  background: linear-gradient(90deg, #6C63FF, #A78BFA);
+  border-radius: 10px;
+}
+
+.progress-sub {
+  font-size: 11px;
+  color: #AAA;
+  margin-top: 5px;
+}
+
+
+
 .post-top {
     display: flex;
     align-items: center;
@@ -173,10 +247,11 @@
 }
 
 .post-name {
-    font-size: 11px;
-    color: #CCC;
+    font-size: 13px;
+    font-weight: 700;
+    color: #1A1A2E;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 .post-actions {
@@ -192,4 +267,186 @@
     font-weight: 600;
     color: #BBB;
     cursor: pointer;
+}
+
+.post-body {
+  font-size: 13px;
+  color: #444;
+  line-height: 1.55;
+  margin-bottom: 12px;
+}
+
+.post-date {
+  font-size: 11px;
+  color: #CCC;
+}
+
+.home-stories-row {
+  display: flex;
+  gap: 14px;
+  padding: 0 22px 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.home-stories-row::-webkit-scrollbar { display: none; }
+
+.story-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.story-ring {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  padding: 2.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.story-add { background: #F0EEFF; }
+
+.story-inner {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: white;
+  border: 2.5px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: #6C63FF;
+}
+
+.story-label {
+  font-size: 10px;
+  font-weight: 600;
+  color: #555;
+  max-width: 62px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.home-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 22px;
+}
+
+.home-see-all {
+  font-size: 13px;
+  font-weight: 700;
+  color: #6C63FF;
+  cursor: pointer;
+}
+
+.home-matches-row:has(.matchcard-body:hover) .matchcard-body:not(:hover) {
+  transform: scale(0.95);
+  opacity: 0.8;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.home-event-card {
+  background: white;
+  border: 1px solid #EBEBEB;
+  border-radius: 20px;
+  padding: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.home-event-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 24px rgba(108, 99, 255, 0.12);
+  z-index: 2;
+}
+
+.home-events:has(.home-event-card:hover) .home-event-card:not(:hover) {
+  transform: scale(0.98);
+  opacity: 0.75;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.home-event-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 24px rgba(108, 99, 255, 0.12);
+  z-index: 2;
+  background: linear-gradient(135deg, #EDE9FE, #F5F0FF);
+  border-color: #C4B8F8;
+}
+
+.event-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1A1A2E;
+  margin-bottom: 6px;
+  transition: color 0.2s ease;
+}
+
+.home-event-card:hover .event-title {
+  color: #6C63FF;
+}
+
+.home-event-card:hover .event-location {
+  color: #4B3FBF;
+  font-weight: 700;
+}
+
+.home-event-card:hover .event-rsvp {
+  color: #6C63FF;
+}
+
+
+.post-action {
+  font-size: 13px;
+  font-weight: 600;
+  color: #CCC;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.2s ease;
+  padding: 4px 8px;
+  border-radius: 20px;
+  border: 1.5px solid transparent;
+}
+
+.post-action:hover {
+  background: #F5F4FF;
+  border-color: #EDE9FE;
+}
+
+.active-like {
+  color: #F7706A;
+  border-color: #F7706A;
+  background: #FEF0EE;
+}
+
+.active-repost {
+  color: #34D399;
+  border-color: #34D399;
+  background: #F0FDF9;
+}
+
+.active-comment {
+  color: #6C63FF;
+  border-color: #6C63FF;
+  background: #F0EEFF;
+}
+
+.post-strip {
+  height: 4px;
+  background: linear-gradient(90deg, #6C63FF, #F7706A, #FBBF24);
+  margin: 0 -16px 12px;
 }

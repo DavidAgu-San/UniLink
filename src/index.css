@@ -14,7 +14,8 @@ body {
 
 /* This wraps every screen in a phone-shaped container */
 .app-shell {
-  width: 390px;
+  max-width: 390px;
+  width: 100%;
   min-height: 100vh;
   background: #FAFAFA;
   position: relative;

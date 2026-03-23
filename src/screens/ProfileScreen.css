@@ -249,3 +249,110 @@
   color: #6C63FF;
   flex-shrink: 0;
 }
+
+.profile-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.profile-add-btn {
+  font-size: 12px;
+  font-weight: 700;
+  color: #6C63FF;
+  cursor: pointer;
+  background: #EDE9FE;
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+
+.interest-picker {
+  background: #F5F4FF;
+  border-radius: 16px;
+  padding: 14px;
+  margin-bottom: 8px;
+  border: 1px solid #EDE9FE;
+}
+
+.interest-picker-hint {
+  font-size: 11px;
+  color: #AAA;
+  margin-bottom: 10px;
+}
+
+.selected-interest {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.unselected-interest {
+  opacity: 0.45;
+  cursor: pointer;
+}
+
+.personality-hint {
+  font-size: 11px;
+  color: #AAA;
+  margin-bottom: 10px;
+}
+
+.profile-section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.profile-add-btn {
+  font-size: 12px;
+  font-weight: 700;
+  color: #6C63FF;
+  cursor: pointer;
+  background: #EDE9FE;
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+
+.interest-picker {
+  background: #F5F4FF;
+  border-radius: 16px;
+  padding: 14px;
+  margin-bottom: 8px;
+  border: 1px solid #EDE9FE;
+}
+
+.interest-picker-hint {
+  font-size: 11px;
+  color: #AAA;
+  margin-bottom: 10px;
+}
+
+.selected-interest {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.unselected-interest {
+  opacity: 0.45;
+  cursor: pointer;
+}
+
+.personality-edit-hint {
+  font-size: 11px;
+  color: #AAA;
+}
+
+.personality-slider {
+  width: 100%;
+  accent-color: #6C63FF;
+  cursor: pointer;
+}
+
+.p-bar-track {
+  width: 100%;
+  height: 6px;
+  background: #F0EEFF;
+  border-radius: 10px;
+  overflow: hidden;
+}

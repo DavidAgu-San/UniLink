@@ -12,6 +12,8 @@ const App = () => {
   const [userName, setUserName] = useState("")
   const [activeTab, setActiveTab] = useState("home")
   const [screen, setScreen] = useState("signup")
+  const [showAllMatches, setShowAllMatches] = useState(false)
+  
 
   // Not logged in yet
   if (userName === "") {
@@ -45,6 +47,12 @@ const App = () => {
   }
 
   const renderScreen = () => {
+    if (activeTab === "home") 
+      return(
+        <HomeScreen
+        name={userName} 
+        onSeeAllMatches={() => {
+          setActiveTab("matches")}}/>)
     if (activeTab === "home")     return <HomeScreen name={userName} />
     if (activeTab === "matches")  return <MatchesScreen />
     if (activeTab === "groups")   return <GroupsScreen />

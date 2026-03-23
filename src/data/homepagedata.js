@@ -6,6 +6,9 @@ export const matches = [
         minor: "Accounting",
         compatibility: 81,
         tags: ["Outgoing", "Adventurous", "Optimistic"],
+        color: "linear-gradient(135deg, #34D399, #059669)",
+        category: "Social",
+        
     },
     {
         id: 2,
@@ -14,6 +17,9 @@ export const matches = [
         minor: "Mathematics",
         compatibility:78,
         tags: ["Determined", "Loyal", "Disciplined"],
+        color: "linear-gradient(135deg, #F7706A, #FBBF24)",
+        category: "Study Partners",
+        
     },
     {
         id: 3,
@@ -22,6 +28,9 @@ export const matches = [
         minor: "Finance",
         compatibility: 85,
         tags: ["Intelligent", "Resourceful", "Ambitious"],
+        color: "linear-gradient(135deg, #F472B6, #EC4899)",
+        category: "Social", 
+        
     },
     {
         id: 4,
@@ -30,6 +39,9 @@ export const matches = [
         minor: "Media Studies",
         compatibility: 85,
         tags: ["Creative", "Humorous", "Imaginative"],
+        color: "linear-gradient(135deg, #bcc838, #17b012)",
+        category: "Projects",
+        
     },
 ];
 
@@ -183,11 +195,43 @@ export const groups = [
 
 
 export const messages = [
-  { id: 1, name: "Monkey D. Luffy",initials: "MD", preview: "Yo whats poppin?", time: "2m ago",  unread: 2, online: true  },
-  { id: 2, name: "Roronoa Zoro",initials: "RZ", preview: "I know what cooked looks like haha thats us",time: "1h ago",  unread: 0, online: false },
-  { id: 3, name: "Nami", initials: "N",  preview: "Do you have stats notes?👀",time: "3h ago",  unread: 1, online: true  },
-  { id: 4, name: "Usopp",initials: "U",  preview: "BROOOO!!! Hinokami kagura🔥",time: "Yesterday", unread: 0, online: false },
-  { id: 5, name: "Jon Snow",initials: "JS", preview: "Winter is coming and so is finals😭",time: "Yesterday", unread: 0, online: true  },
-  { id: 6, name: "Bruce Wayne",initials: "BW", preview: "Stranger Things was a bust fr...",time: "2 days ago", unread: 0, online: false },
-  { id: 7, name: "Hope Mikaelson",initials: "HM", preview: "Heyyy",time: "2 days ago", unread: 1, online: true  },
+  { id: 1, name: "Monkey D. Luffy",initials: "MD", preview: "Yo whats poppin?", time: "2m ago",  unread: 2, online: true,
+    conversation: [
+        { id: 1, sender: "them", text: "Yo whats poppin?", time: "2m ago" },
+        { id: 2, sender: "them", text: "You joining the study session tmr?🔥", time: "2m ago" },
+    ], color: "linear-gradient(135deg, #6C63FF, #A78BFA)"                                   
+    }
+,
+  { id: 2, name: "Roronoa Zoro",initials: "RZ", preview: "I know what cooked looks like haha thats us",time: "1h ago",  unread: 0, online: false,
+    conversation: [
+        { id: 1, sender: "me", text: "Bro that stats exam was ROUGH", time: "2h ago" },
+        { id: 2, sender: "them", text: "I know what cooked looks like haha thats us", time: "1h ago" },
+],color: "linear-gradient(135deg, #34D399, #059669)"},
+  { id: 3, name: "Nami", initials: "N",  preview: "Do you have stats notes?👀",time: "3h ago",  unread: 1, online: true,
+    conversation: [
+        { id: 1, sender: "them", text: "Do you have stats notes?👀", time: "3h ago" },
+    ],  color: "linear-gradient(135deg, #F472B6, #EC4899)"},
+  { id: 4, name: "Usopp",initials: "U",  preview: "BROOOO!!! Hinokami kagura🔥",time: "Yesterday", unread: 0, online: false,conversation: [
+        { id: 1, sender: "them", text: "Did you watch the new Demon Slayer ep?", time: "Yesterday" },
+        { id: 2, sender: "me", text: "Not yet dont spoil it", time: "Yesterday" },
+        { id: 3, sender: "them", text: "BROOOO!!! Hinokami kagura🔥", time: "Yesterday" },
+    ], color: "linear-gradient(135deg, #A78BFA, #6C63FF)" },
+  { id: 5, name: "Jon Snow",initials: "JS", preview: "Winter is coming and so is finals😭",time: "Yesterday", unread: 0, online: true, color: "linear-gradient(135deg, #A78BFA, #6C63FF)",
+    conversation: [
+        { id: 1, sender: "them", text: "The nights watch might betray a brother...", time: "yesterday" },
+        { id: 2, sender: "me", text: "You know nothing Jon Snow", time: "yesterday" },
+        { id: 3, sender: "them", text: "Winter is coming and so is finals😭that i know at least", time: "yesterday" },
+    ]
+   },
+  { id: 6, name: "Bruce Wayne",initials: "BW", preview: "Stranger Things was a bust fr...",time: "2 days ago", unread: 0, online: false, color: "linear-gradient(135deg, #A78BFA, #6C63FF)",
+    conversation: [
+        { id: 1, sender: "them", text: "How are you feelin about the new season?", time: "2 days ago" },
+        { id: 2, sender: "them", text: "Stranger Things was a bust fr...", time: "2 days ago" },
+    ]
+  },
+  { id: 7, name: "Hope Mikaelson",initials: "HM", preview: "Heyyy",time: "2 days ago", unread: 1, online: true, color: "linear-gradient(135deg, #A78BFA, #6C63FF)",
+    conversation: [
+        { id: 1, sender: "them", text: "Heyyy", time: "2 daysago" },
+    ]
+   },
 ];

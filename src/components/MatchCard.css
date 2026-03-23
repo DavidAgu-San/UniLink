@@ -4,25 +4,36 @@
     border-radius: 22px;
     padding: 16px;
     flex-shrink: 0;
-    width: 160px;
+    width: 175px;
     cursor: pointer;
     border-top:4px solid #6C63FF;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 280px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .matchcard-icon {
     width: 46px;
     height: 46px;
     border-radius: 50%;
-     background: linear-gradient(135deg, #6C63FF, #A78BFA);
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     font-size: 14px;
-     font-weight: 700;
-     color: white;
-     margin-bottom: 10px;
+    background: linear-gradient(135deg, #6C63FF, #A78BFA);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
 }
 
+.matchcard-body:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(108, 99, 255, 0.15);
+  z-index: 2;
+}
 .matchcard-name {
     font-size: 13px;
     font-weight:700;
@@ -48,6 +59,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 4px;
+    margin-bottom: 10px;
 }
 
 .matchcard-tag {
@@ -81,8 +93,9 @@
   font-size: 12px;
   font-weight: 700;
   cursor: pointer;
-  margin-top: 12px;
+  margin-top: auto;
   font-family: 'Plus Jakarta Sans', sans-serif;
+
 }
 
 .matchcard-btn.connected {
