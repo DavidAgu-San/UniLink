@@ -1,0 +1,31 @@
+.matches-screen {
+  background: #F5F4FF;
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+
+.matches-header {
+  background: white;
+  padding: 20px 22px 16px;
+  border-bottom: 1px solid #EBEBEB;
+}
+
+.matches-title {
+  font-family: 'Fraunces', serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1A1A2E;
+  margin-bottom: 4px;
+}
+
+.matches-sub {
+  font-size: 13px;
+  color: #AAA;
+}
+
+.matches-list {
+  padding: 16px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

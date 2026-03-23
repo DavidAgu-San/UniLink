@@ -4,6 +4,7 @@ import {useState} from "react";
 import LoginScreen from "./screens/LoginScreen";
 import HomeScreen from "./screens/HomeScreen";
 import BottomNav from "./components/BottomNav";
+import MatchesScreen from "./screens/MatchesScreen"
 
 const App = () => {
     // State to track if the user is logged in and their name
@@ -33,7 +34,7 @@ const App = () => {
         return <HomeScreen name={userName} />
       }
       if (activeTab === "matches") {
-        return <div style={placeholder}>Matches will be here</div>
+        return <MatchesScreen/>
       }
       if (activeTab === "groups") {
         return <div style={placeholder}>Groups will be here</div>
